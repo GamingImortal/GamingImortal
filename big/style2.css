@@ -1,0 +1,35 @@
+nav, header, main, footer{
+    margin: 0;
+    padding: 0;
+}
+
+header .mainnav{
+    position: absolute;
+}
+
+.miz{
+    animation: color-changes 30s infinite linear ;
+    font-size: 3cm;
+        }
+    
+    @keyframes color-changes{
+        0%{
+            color:  blue;
+        }
+        20%{
+            color: plum;
+        }
+        40%{
+            color:  #000;
+        }
+        60%{
+            color:  red;
+        }
+        80%{
+            color:  greenyellow;
+        }
+        100%{
+            color: blue;
+        }
+    
+    }

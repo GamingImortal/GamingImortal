@@ -1,0 +1,284 @@
+nav, header, main, footer{
+margin: 0;
+padding: 0;
+}
+ 
+
+.yes{
+    position: fixed;
+    z-index: 3;
+
+}
+
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 99%;
+    margin-top: -8px;
+    
+      
+}
+
+
+.yes{
+    z-index: 3;
+    margin-top: -10px;
+    animation: color-cha infinite reverse;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style:italic;
+    color: blue;
+    animation: color-changes 30s infinite reverse;
+}
+
+
+@keyframes color-changes{
+    0%{
+        color:  blue;
+    }
+    20%{
+        color: plum;
+    }
+    40%{
+        color:  #000;
+    }
+    60%{
+        color:  red;
+    }
+    80%{
+        color:  green;
+    }
+    100%{
+        color: blue;
+    }
+
+}
+
+
+
+@keyframes color-cha{
+    0%{
+        color:  blue;
+    }
+    25%{
+        color: plum;
+    }
+    50%{
+        color:  rgb(255, 238, 0);
+    }
+    75%{
+        color:  red;
+    }
+    100%{
+        color:  purple;
+    }
+    
+}
+@keyframes color-change{
+0%{
+    box-shadow: 15px 15px 15px blue;
+}
+20%{
+    box-shadow:15px 15px 15px plum;
+}
+40%{
+    box-shadow: 15px 15px 15px black;
+}
+60%{
+    box-shadow: 15px 15px 15px red;
+}
+80%
+{box-shadow:15px 15px 15px green;
+}
+100%{
+    box-shadow: 15px 15px 15px blue;
+}
+
+
+}
+ 
+.hello div.harley{
+    opacity: 0.5;
+}
+
+.movies{
+    animation: color-change 30s infinite reverse;
+    font-size: 0.52cm;
+    
+}
+.hello{
+    animation: color-changl 30s infinite reverse;
+    position:relative;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: inline-flex;
+    
+  
+}
+body{
+background-repeat: round;
+}
+
+.navlogo img{
+    animation: color-change 30s infinite reverse;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 100px;
+    height: auto;
+    box-shadow: 15px 15px 15px #000;
+    top: 0.5cm;
+}
+
+.blue{
+    animation: color-change 30s infinite reverse;
+    left: 1cm;
+    position: relative;
+    top: 5cm;
+    padding-bottom: 5cm;
+
+}
+
+main .container  .col-lg-8 .movies {
+    
+    margin: 30px;
+    position:relative;
+    display:inline-flex;
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    top: 4cm;
+    /*box-shadow: 15px 15px 15px plum ;*/
+
+    
+}
+
+main .container  .col-lg-8 .movies:hover {
+
+    margin: 30px;
+    position:relative;
+    width: 480px;
+    height: 480px;
+    padding: 2%;
+    box-shadow: 15px 15px 15px plum ;
+   
+
+    
+}
+
+main .container  .col-lg-8{
+    display:-moz-groupbox;
+    
+}
+.movies a{
+    animation: color-changes 30s infinite reverse ;
+}
+
+.links .link{
+   
+position: relative;
+display: inline;
+margin: 10px;
+text-transform: uppercase;
+font-style: italic;
+font-family:'Times New Roman', Times, serif;
+
+text-decoration: none;
+}
+
+
+.links .link a{
+    animation: color-changes 30s infinite reverse ;
+    color: blue;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+   
+    text-decoration: underline;
+    
+}
+.possible {
+    animation: color-changes 30s infinite reverse;
+    left: 10cm;
+    color: red;
+    font-size: 3cm;
+    font-weight: bolder;
+ text-transform: uppercase; 
+ font-style: italic;
+ display: inline-flex;
+}
+.links .link a:hover{
+color: white;
+font-size: 1.5cm;
+
+}
+.links{
+    margin-top: 30px;
+    position: relative;
+    display: inline-flex;
+    padding: 25px;
+    
+
+}
+
+.links .button a:hover{
+    font-size: 1.5cm;
+    animation:color-changes 30s infinite reverse = x;
+    background-color:x;
+    
+}
+.links .button {
+    animation: color-changl 30s infinite reverse, color-changes 30s infinite reverse;
+    width: 75px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 3px 3px 3px red;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+
+.movies img{
+   position 
+    : relative;
+    width: 100%;
+    height: auto;  
+}
+
+
+/*main .container  .col-lg-8 .movies {
+    margin: 30px;
+    position:relative;
+    display:list-item;
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    box-shadow: 15px 15px 15px plum ;
+    text-align: center;
+    text-decoration: none;   
+}*/
+@keyframes color-changl{
+    0%{
+        box-shadow: 3px 3px 3px  blue;
+    }
+    20%{
+        box-shadow:3px 3px 3px plum;
+    }
+    40%{
+        box-shadow: 3px 3px 3px #000;
+    }
+    60%{
+        box-shadow: 3px 3px 3px  red;
+    }
+    80%
+    {box-shadow:3px 3px 3px green;
+    }
+    100%{
+        box-shadow: 3px 3px 3px blue;
+    }
+}
+
+
+
